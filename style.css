@@ -54,4 +54,55 @@ header > ul {
     text-decoration: none;
 }
 
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.caixa-texto {
+    position: relative;
+    max-width: 600px;
+}
+
+.caixa-texto > h2 {
+    color: #333;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.caixa-texto > h2 > span  {
+    color: #1A3B2A;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.caixa-texto > p {
+    color: #333;
+}
+.caixa-texto > a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #1A3B2A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.imagem1 {
+    max-width: 500px;
+}
